@@ -27,7 +27,9 @@ short val2 = -15;
 
 long val3 = val1 + val2;
 
-long resultado1 = (int)val3 + 2147483648;
+decimal resultado1 = val3 + 2147483648;
+
+
 
 Console.WriteLine("Numero 1: " + val1);
 Console.WriteLine("Numero 2: " + val2);
