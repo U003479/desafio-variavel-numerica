@@ -19,7 +19,7 @@ Console.WriteLine(num3 + " / " + 5000002 + " = " + resultado);
 //--------------------------------------------------------
 Console.WriteLine("\n -- Desafio 2 -- \n");
 // RESOLVA TODOS OS ERROS DE COMPILAÇÃO ABAIXO.
-// O PROGRAMA DEVE EXIBIR O RESULTADO 433,79153 NA TELA
+// O PROGRAMA DEVE EXIBIR O RESULTADO 2147483643 NA TELA
 
 uint val1 = 10;
 
@@ -29,10 +29,10 @@ uint val3 = val1 + val2;
 
 int resultado1 = (float)num3 + 2147483648;
 
-Console.WriteLine("Numero 1: " + num1);
-Console.WriteLine("Numero 2: " + num2);
-Console.WriteLine(num1 + " + " + num2 + " = " + num3);
-Console.WriteLine(num3 + " / " + 5000002 + " = " + resultado);
+Console.WriteLine("Numero 1: " + val1);
+Console.WriteLine("Numero 2: " + val2);
+Console.WriteLine(val1 + " + (" + val2 + ") = " + val3);
+Console.WriteLine(val3 + " + " + 2147483648 + " = " + resultado1);
 
 
 //--------------------------------------------------------
