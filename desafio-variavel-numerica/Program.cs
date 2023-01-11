@@ -27,7 +27,7 @@ short val2 = -15;
 
 uint val3 = val1 + val2;
 
-int resultado1 = (float)num3 + 2147483648;
+int resultado1 = (float)val3 + 2147483648;
 
 Console.WriteLine("Numero 1: " + val1);
 Console.WriteLine("Numero 2: " + val2);
