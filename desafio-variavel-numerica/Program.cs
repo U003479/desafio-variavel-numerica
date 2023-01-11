@@ -7,7 +7,7 @@ int num1 = 21474831;
 
 uint num2 = 2147483648;
 
-float num3 = num1 + num2;
+long num3 = num1 + num2;
 
 float resultado = num3 / 5000002;
 
